@@ -1,0 +1,92 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+
+/* .members {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(204, 228, 247, 1) 11.2%,
+    rgba(237, 246, 250, 1) 100.2%
+  );
+} */
+
+.hero-card {
+  border-radius: 0;
+  border: 0;
+  height: 200px;
+  background-color: #8c7ae6 !important;
+  color: #ffffff !important;
+}
+
+.rounded {
+  width: 100px;
+  height: 100px;
+}
+
+.profile-cards {
+  height: 300px;
+}
+
+.profile-details {
+  text-align: center;
+}
+
+#back-to-top {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 50px;
+  text-align: center;
+  line-height: 30px;
+  height: 50px;
+}
+
+@media (min-width: 300px) {
+  .col-md-5 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .profile-cards {
+    height: 300px;
+    margin-top: 0;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .profile-cards {
+    height: 300px;
+  }
+
+  .col-md-5 {
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .profile-cards {
+    margin-top: 0;
+    height: 200px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .profile-cards {
+    margin-top: 0;
+    height: 150px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .profile-cards {
+    margin-top: 0;
+    height: 150px;
+  }
+}

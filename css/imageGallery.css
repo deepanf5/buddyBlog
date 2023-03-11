@@ -1,0 +1,38 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+
+.hero-card {
+  height: 200px;
+  border-radius: 0;
+  border: none;
+  background-color: #8c7ae6;
+  color: #ffffff;
+}
+
+.col {
+  width: 400px;
+  background-color: red;
+  margin: 2rem;
+}
+
+.label {
+  font-size: 0.9rem;
+}
+
+.card-A {
+  transition: all 1s;
+}
+.card-A:hover {
+  transform: scale(0.9);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+#back-to-top {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 50px;
+  text-align: center;
+  line-height: 30px;
+  height: 50px;
+}
